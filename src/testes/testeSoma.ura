@@ -1,23 +1,24 @@
-int n1 = 10;
-int n2 = 10;
+int n1 = 87;
+int n2 = 54;
+float n3 = 45.6;
 
-func soma(a, b) {
-    return a + b;
+func soma(a, b, c) {
+    return a + b + c;
 }
 
-func sub(a, b) {
-    return a - b;
+func sub(a, b, c) {
+    return a - b - c;
 }
 
-func div(a, b) {
-    return a / b;
+func div(a, b, c) {
+    return a / b / c;
 }
 
-func mult(a, b) {
-    return a * b;
+func mult(a, b, c) {
+    return a * b * c;
 }
 
-soma(n1, n2);
-sub(n1, n2);
-div(n1, n2);
-mult(n1, n2);
+soma(n1, n2, n3);
+sub(n1, n2, n3);
+div(n1, n2, n3);
+mult(n1, n2, n3);
